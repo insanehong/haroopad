@@ -18,12 +18,18 @@ body {
 /* -----------------------------------------
    Shared Styles
 ----------------------------------------- */
+.container-fluid {
+	padding: 0;
+	height: 100%;
+}
+
 #editor {
-	width: 50%;
+	/*width: 50%;*/
 	height: 100%;
 	float: left;
-	margin-left: -2px;
+	/*margin-left: -2px;*/
 	display: inline-block;
+	overflow-y: auto;
 }
 
 #spliter {
@@ -35,12 +41,12 @@ body {
 }
 
 #haroo {
-	width: 50%;
+	/*width: 50%;*/
 	height: 100%;
 	float: left;
 	display: inline-block;
-	border-bottom: 1px solid #000;
-	word-wrap: break-word;
+	/*border-bottom: 1px solid #000;*/
+	/*word-wrap: break-word;*/
 	overflow-y: auto;
 }
 
